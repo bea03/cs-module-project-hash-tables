@@ -20,8 +20,11 @@ class HashTable:
     Implement this.
     """
 
-    def __init__(self, capacity):
+    def __init__(self, capacity=MIN_CAPACITY):
         # Your code here
+        self.capacity = capacity
+        self.array = [None] * capacity
+        self.size = 0
 
 
     def get_num_slots(self):
