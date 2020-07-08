@@ -38,8 +38,8 @@ class HashTable:
         Implement this.
         """
         # Your code here
-
-
+        return len(self.array)
+        
     def get_load_factor(self):
         """
         Return the load factor for this hash table.
@@ -47,7 +47,7 @@ class HashTable:
         Implement this.
         """
         # Your code here
-
+        
 
     def fnv1(self, key):
         """
